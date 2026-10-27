@@ -48,7 +48,7 @@ START_POSITION = (SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2)
 screen = pg.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT), 0, 32)
 
 # Заголовок окна игрового поля:
-pg.display.set_caption("Змейка")
+pg.display.set_caption('Змейка')
 
 # Настройка времени:
 clock = pg.time.Clock()
@@ -222,5 +222,5 @@ def main():
         pg.display.update()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
